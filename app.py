@@ -103,6 +103,31 @@ class App1:
         self.Button1 = tk.Button(master=top, text='''*''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
         self.Button1.place(relx=0.934, rely=0.44, height=44, width=37)
 
+        self.Button1 = tk.Button(master=top, text='''1''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.54, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''2''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.54, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''3''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.54, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''-''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.54, height=44, width=37)
+
+        self.Button1 = tk.Button(master=top, text='''0''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.64, height=35, width=147)
+
+        self.Button1 = tk.Button(master=top, text='''.''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.64, height=35, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''+''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.64, height=35, width=37)
+
+        self.Button1 = tk.Button(master=top, text='''=''', background='#f2a343', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.72, height=34, width=272)
+
+
 
 
 
