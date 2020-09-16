@@ -15,7 +15,7 @@ class App1:
 
         font10 = "{Courier New} 10 normal"
         font11 = "{U.S. 101} 30 bold"
-        font12 = "Al-Aramco 11 bold "
+        font12 = "Al-Aramco 12 bold "
         font13 = "{Courier New} 10 bold "
         font14 = "{Segoe UI} 15 bold "
         font15 = "Arial 13 bold "
@@ -126,6 +126,39 @@ class App1:
 
         self.Button1 = tk.Button(master=top, text='''=''', background='#f2a343', font=font14, foreground='#f2a343', borderwidth='0')
         self.Button1.place(relx=0.705, rely=0.72, height=34, width=272)
+
+        #-----Cost ----------------
+        self.Label12= tk.Label(master=top, text="Cost : ", foreground="#e16740", font=font12, background="#354e71")
+        self.Label12.place(relx=0.35, rely=0.32)
+
+        self.Label12= tk.Label(master=top, text="Service Charge : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.29, rely=0.4)
+
+        self.Label12= tk.Label(master=top, text="Tax : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.36, rely=0.48)
+        self.Label12= tk.Label(master=top, text="Subtotal : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.33, rely=0.56)
+
+        self.Label12= tk.Label(master=top, text="Total : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.35, rely=0.64)
+
+        #-----Entry Cost --------
+
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry13.place(relx=0.40, rely=0.31, height=35, relwidth= 0.237)
+
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry13.place(relx=0.40, rely=0.39, height=35, relwidth= 0.237)
+
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry13.place(relx=0.40, rely=0.47, height=33, relwidth= 0.237)
+
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry13.place(relx=0.40, rely=0.55, height=33, relwidth= 0.237)
+        
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry13.place(relx=0.40, rely=0.63, height=33, relwidth= 0.237)
+
 
 
 
