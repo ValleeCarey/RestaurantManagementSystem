@@ -49,7 +49,32 @@ class App1:
         self.Label12.place(relx=0.060, rely=0.64)
 
         self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font12, background="#354e71")
-        self.Label12.place(relx=0.078, rely=0.71)
+        self.Label12.place(relx=0.078, rely=0.72)
+
+        #---- Entry Food ------
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.25)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.33)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.41)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.49)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.57)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.65)
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.14, rely=0.73)
+
+
 
 
 root = tk.Tk()
