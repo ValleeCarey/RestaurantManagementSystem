@@ -30,26 +30,26 @@ class App1:
         localtime1.place(relx= 0.420, rely= 0.12)
 
         #----Label Food --------
-        self.Label12= tk.Label(master=top, text="Order Num : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12= tk.Label(master=top, text="Order Num : ", foreground="#bac8bd", font=font12, background="#354e71")
         self.Label12.place(relx=0.054, rely=0.25)
 
-        self.Label12= tk.Label(master=top, text="French Fries : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.044, rely=0.32)
+        self.Label12= tk.Label(master=top, text="Fried Potato : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.049, rely=0.32)
 
-        self.Label12= tk.Label(master=top, text="Chicken Burger : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12= tk.Label(master=top, text="Chk Burger : ", foreground="#bac8bd", font=font12, background="#354e71")
         self.Label12.place(relx=0.053, rely=0.4)
 
-        self.Label12= tk.Label(master=top, text="Big King : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.078, rely=0.48)
+        self.Label12= tk.Label(master=top, text="Big King : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.068, rely=0.48)
 
-        self.Label12= tk.Label(master=top, text="Chicken Royale : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.060, rely=0.56)
+        self.Label12= tk.Label(master=top, text="Chk Royale : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.053, rely=0.56)
 
-        self.Label12= tk.Label(master=top, text="Veggie Salad : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.055, rely=0.64)
+        self.Label12= tk.Label(master=top, text="Veg Salad : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.060, rely=0.64)
 
-        self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.093, rely=0.71)
+        self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12.place(relx=0.078, rely=0.71)
 
 
 root = tk.Tk()
