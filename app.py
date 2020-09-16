@@ -40,16 +40,16 @@ class App1:
         self.Label12.place(relx=0.053, rely=0.4)
 
         self.Label12= tk.Label(master=top, text="Big King : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.054, rely=0.48)
+        self.Label12.place(relx=0.078, rely=0.48)
 
         self.Label12= tk.Label(master=top, text="Chicken Royale : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.054, rely=0.56)
+        self.Label12.place(relx=0.060, rely=0.56)
 
         self.Label12= tk.Label(master=top, text="Veggie Salad : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.054, rely=0.64)
+        self.Label12.place(relx=0.055, rely=0.64)
 
         self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font14, background="#354e71")
-        self.Label12.place(relx=0.054, rely=0.71)
+        self.Label12.place(relx=0.093, rely=0.71)
 
 
 root = tk.Tk()
