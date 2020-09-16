@@ -48,7 +48,7 @@ class App1:
         self.Label12= tk.Label(master=top, text="Veg Salad : ", foreground="#bac8bd", font=font12, background="#354e71")
         self.Label12.place(relx=0.060, rely=0.64)
 
-        self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font12, background="#354e71")
+        self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#00ff00", font=font12, background="#354e71")
         self.Label12.place(relx=0.078, rely=0.72)
 
         #---- Entry Food ------
@@ -73,6 +73,36 @@ class App1:
 
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
         self.entry1.place(relx=0.14, rely=0.73)
+
+        #------Calculator -------
+
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
+        self.entry1.place(relx=0.705, rely=0.24, height=35, relwidth= 0.267)
+
+        self.Button1 = tk.Button(master=top, text='''7''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.34, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''8''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.34, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''9''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.34, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''/''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.34, height=44, width=37)
+
+        self.Button1 = tk.Button(master=top, text='''4''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.44, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''5''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.44, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''6''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.44, height=44, width=67)
+
+        self.Button1 = tk.Button(master=top, text='''*''', background='#122c63', font=font14, foreground='#f2a343', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.44, height=44, width=37)
+
 
 
 
