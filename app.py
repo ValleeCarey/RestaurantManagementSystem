@@ -21,11 +21,36 @@ class App1:
         font15 = "Arial 13 bold "
         font16 = "{Segoe UI} 13 bold"
 
+        #----Info Food -------
+
         self.Label1 = tk.Label(master=top, text="Restaurant Management System", background="#354e71", font=font11, foreground="#f2a343")
         self.Label1.place(relx= 0.268, rely= 0.02, height=51, width=507)
 
         localtime1 = Label(master=top, text=localtime, background="#354e71", font=font16, fg="steel blue")
         localtime1.place(relx= 0.420, rely= 0.12)
+
+        #----Label Food --------
+        self.Label12= tk.Label(master=top, text="Order Num : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.054, rely=0.25)
+
+        self.Label12= tk.Label(master=top, text="French Fries : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.044, rely=0.32)
+
+        self.Label12= tk.Label(master=top, text="Chicken Burger : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.053, rely=0.4)
+
+        self.Label12= tk.Label(master=top, text="Big King : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.054, rely=0.48)
+
+        self.Label12= tk.Label(master=top, text="Chicken Royale : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.054, rely=0.56)
+
+        self.Label12= tk.Label(master=top, text="Veggie Salad : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.054, rely=0.64)
+
+        self.Label12= tk.Label(master=top, text="Drinks : ", foreground="#bac8bd", font=font14, background="#354e71")
+        self.Label12.place(relx=0.054, rely=0.71)
+
 
 root = tk.Tk()
 myGui = App1(root)
