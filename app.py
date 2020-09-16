@@ -159,6 +159,11 @@ class App1:
         self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000",selectbackground="#f2a343", font=font13)
         self.entry13.place(relx=0.40, rely=0.63, height=33, relwidth= 0.237)
 
+        #----Control Button -----
+
+        self.Button2 = tk.Button(master=top, text="PRICE", highlightbackground="#e16740", foreground="#000000", font=font16,)
+        self.Button2.place(relx=0.039, rely=0.86, height=34, width=107)
+
 
 
 
